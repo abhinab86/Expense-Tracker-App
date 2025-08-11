@@ -4,10 +4,12 @@ const cors = require('cors');
 const db = require('./database');
 
 const app = express();
+const cors = require('cors');
+
 app.use(cors({
-    origin: 'http://127.0.0.1:5500', 
-    methods: ['GET', 'POST', 'DELETE'],
-    allowedHeaders: ['Content-Type']
+  origin: 'https://expenstrck.netlify.app',
+  methods: ['GET', 'POST', 'DELETE'],
+  credentials: true
 }));
 app.use(bodyParser.json());
 

@@ -4,7 +4,6 @@ const cors = require('cors');
 const db = require('./database');
 
 const app = express();
-const cors = require('cors');
 
 app.use(cors({
   origin: 'https://expenstrck.netlify.app',

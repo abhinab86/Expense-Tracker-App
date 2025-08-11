@@ -3,9 +3,7 @@ let allExpenses = [];
 const form = document.getElementById('expense-form');
 const expenseList = document.getElementById('expense-list');
 
-const API_BASE = window.location.hostname.includes('localhost') 
-  ? 'http://127.0.0.1:5000/api/expenses'
-  : 'https://expense-tracker-app-22w3.onrender.com/api/expenses';
+const API_BASE = 'https://expense-tracker-app-22w3.onrender.com/api/expenses';
 
 function loadExpenses(){
     fetch(API_BASE)

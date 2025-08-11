@@ -1,5 +1,5 @@
 **Expense Tracker App**
-A full stcak web application to track the personal expenses. Users can add, view, and manage expenses with categories and dates. The frontend is deployed on Netlify and the backend API on Render.
+A full stack web application to track the personal expenses. Users can add, view, and manage expenses with categories and dates. The frontend is deployed on Netlify and the backend API on Render.
 
 **Features**
 i. Users can add new expenses with amount, category and date.
